@@ -7,7 +7,10 @@ import Footer from './shared/Footer'
 // import useGetAllJobs from '@/hooks/useGetalljobs'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
-import useGetAllJobs from '@/hooks/useTemp'
+import useGetAllJobs from '@/hooks/useGetAlljobs'
+
+
+
 
 const Home = () => {
   useGetAllJobs();
